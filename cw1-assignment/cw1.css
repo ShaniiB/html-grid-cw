@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
+::-webkit-scrollbar {
+     width: 10px;
+}    
+::-webkit-scrollbar-track {
+     background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+     background: #911F27;
+}
+::-webkit-scrollbar-thumb:hover {
+     background: #911F27;
+}  
+
+
 body {
      background-color: #911F27;
      padding: 15px; 
@@ -35,28 +49,31 @@ nav {
 }
 
 a.nav { 
-     font-family: 'Quicksand', sans-serif;
-     color: whitesmoke;
-     font-size: 20px;
+     font-family: 'Amatic SC', cursive;     
+     color: #630A10;
+     font-size: 30px;
      text-decoration: none;
      text-shadow: #363636 1px 1px 1px;
-     padding: 10px 35px;
+     padding: 10px 90px;
+     border-top: #911F27 solid 4px;
+     border-bottom: #911F27 solid 4px;
+     border-radius: 20px;
 
  }
  a.nav:hover {
      color: #000000;
-     text-shadow: #FFBCBC 1px 1px 1px;
+     text-shadow: #630A10 1px 1px 1px;
+
  }
 
 ul {
      display: block;
+     width: 200px;
 }
   
 li {
-     display: inline-block;
-     width: 160px;
      list-style: none;
-     padding: 20px;
+     padding: 22px;
 }
   
 
