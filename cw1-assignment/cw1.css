@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
 body {
      background-color: #911F27;
      padding: 15px; 
@@ -17,6 +20,14 @@ header {
      grid-row: 1/2;
 }
 
+h1.header {
+     font-family: 'Indie Flower', cursive;
+     text-align: center;
+     text-shadow: #FACE7F 1px 1px 1px;
+     color: #ffffff;
+     font-size: 50px;
+}
+
 nav {
      background-color: #FCF0C8;
      grid-column: 1/2;
@@ -24,20 +35,17 @@ nav {
 }
 
 a.nav { 
-     background-color: #4CD3C2;
      font-family: 'Quicksand', sans-serif;
      color: whitesmoke;
      font-size: 20px;
      text-decoration: none;
      text-shadow: #363636 1px 1px 1px;
-     padding: 10px 60px;
-     transition: all 1s ease-in-out ;
+     padding: 10px 35px;
+
  }
  a.nav:hover {
-     background-color: #B7EFCD;
      color: #000000;
      text-shadow: #FFBCBC 1px 1px 1px;
-     transition: all 1s ease-in-out ;
  }
 
 ul {
@@ -62,6 +70,7 @@ section {
      background-color: #FACE7F;
      grid-column: 2/7;
      grid-row: 2/6;
+     padding: 25px;
 }
 
 footer {
